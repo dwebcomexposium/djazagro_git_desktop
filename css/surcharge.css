@@ -84,7 +84,7 @@ html{
     font-size:1.2rem;
     line-height:1.8rem;
     font-family:"lato-bold",sans-serif;
-    padding:1.3rem;
+    padding:1.3rem !important;
     transition:all .2s ease
 }
 .btn-small:hover{
@@ -102,7 +102,7 @@ html{
     line-height:2.1rem;
     font-family:"lato-bold",sans-serif;
     color:white;
-    padding:1.7rem 5.3rem 1.7rem 1.7rem;
+    padding:1.7rem 5.3rem 1.7rem 1.7rem !important;
     transition:all .2s ease
 }
 .btn:hover{
@@ -176,22 +176,22 @@ html{
 .refonte .openx-banner{
     display:none !important
 }
-.wrapper-perso{
+.refonte .wrapper-perso{
     width:102.3rem;
     margin:0 auto
 }
-.pub{
+.refonte .pub{
     display:flex;
     justify-content:center;
     background-color:#464646
 }
-.footer-contact .prefooter-wrapper{
+.refonte .footer-contact .prefooter-wrapper{
     display:flex;
     justify-content:space-between;
     background-image:url("/theme/djazagro_git_desktop/img/paper_fibers.png");
     background-repeat:repeat
 }
-.footer-contact .prefooter-wrapper .prefooter-bloc{
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc{
     width:32.5%;
     display:flex;
     flex-direction:column;
@@ -200,30 +200,30 @@ html{
     border-right:.1rem solid #d8d8d8;
     padding:5rem 0
 }
-.footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(1) h3::before{
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(1) h3::before{
     content:url("/theme/djazagro_git_desktop/img/picto-question.svg")
 }
-.footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(2) h3::before{
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(2) h3::before{
     content:url("/theme/djazagro_git_desktop/img/picto-info.svg")
 }
-.footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) h3::before{
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) h3::before{
     content:url("/theme/djazagro_git_desktop/img/picto-reseaux.svg")
 }
-.footer-contact .prefooter-wrapper .prefooter-bloc h3{
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc h3{
     display:flex;
     align-items:center
 }
-.footer-contact .prefooter-wrapper .prefooter-bloc h3::before{
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc h3::before{
     margin-right:1.5rem
 }
-.footer-contact .prefooter-wrapper .prefooter-bloc ul li a img{
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc ul li a img{
     transition:all .2s ease
 }
-.footer-contact .prefooter-wrapper .prefooter-bloc ul li a img:hover{
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc ul li a img:hover{
     -webkit-transform:scale(1.08);
     transform:scale(1.08)
 }
-.footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) ul{
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) ul{
     display:inline-block;
     list-style-type:none;
     padding:0 1rem;
@@ -232,48 +232,48 @@ html{
     justify-content:center;
     margin-top:1rem
 }
-.footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) li{
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) li{
     display:inline-block;
     margin-right:2rem;
     margin-bottom:1rem
 }
-.footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) li:last-child{
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) li:last-child{
     margin-right:0 !important
 }
-.footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) p{
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) p{
     margin-bottom:0 !important
 }
-.footer-contact .prefooter-wrapper .prefooter-bloc h3{
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc h3{
     margin-bottom:.7rem;
     font-size:2.4rem;
     font-family:"josefin-slab-bold",sans-serif;
     text-transform:inherit
 }
-.footer-contact .prefooter-wrapper .prefooter-bloc p{
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc p{
     color:#a2a2a2;
     font-size:1.6rem;
     margin-bottom:2rem;
     text-align:center;
     line-height:2rem
 }
-.footer-contact .prefooter-wrapper .prefooter-bloc p:nth-child(4){
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc p:nth-child(4){
     color:#BA9347;
     font-size:2rem;
     font-family:"lato-regular",sans-serif
 }
-.what-profil{
+.refonte .what-profil{
     display:flex;
     min-height:55rem;
     position:relative
 }
-.what-profil p{
+.refonte .what-profil p{
     color:#fff;
     font-weight:lighter;
     font-size:2.2rem;
     margin-bottom:.8rem;
     font-family:"lato-light",sans-serif
 }
-.what-profil h2{
+.refonte .what-profil h2{
     margin:0;
     padding:0;
     color:#fff !important;
@@ -282,7 +282,7 @@ html{
     font-family:"josefin-slab-bold",sans-serif;
     border-bottom:inherit !important
 }
-.what-profil .container-profil{
+.refonte .what-profil .container-profil{
     width:50%;
     display:flex;
     flex-direction:column;
@@ -293,32 +293,32 @@ html{
     width:100%;
     background-position:center
 }
-.what-profil .container-profil:nth-child(1){
+.refonte .what-profil .container-profil:nth-child(1){
     background-image:url("/theme/djazagro_git_desktop/img/img-exposant.jpg")
 }
-.what-profil .container-profil:nth-child(2){
+.refonte .what-profil .container-profil:nth-child(2){
     background-image:url("/theme/djazagro_git_desktop/img/img-visiteur.jpg")
 }
-.key-number{
+.refonte .key-number{
     padding:6rem 0 6rem;
     margin:0 auto;
     background-image:url("/theme/djazagro_git_desktop/img/paper_fibers.png");
     background-repeat:repeat
 }
-.key-number .item{
+.refonte .key-number .item{
     display:flex;
     justify-content:space-around;
     position:relative;
     z-index:2
 }
-.key-number .item h2{
+.refonte .key-number .item h2{
     display:flex;
     align-items:flex-end;
     margin-bottom:3rem;
     position:relative;
     z-index:999
 }
-.key-number .item h2::before{
+.refonte .key-number .item h2::before{
     content:'';
     display:block;
     position:absolute;
@@ -334,26 +334,26 @@ html{
     transform:translate(-50%, -50%) rotate(45deg);
     z-index:-5
 }
-.key-number .item .item-pro .number::before{
+.refonte .key-number .item .item-pro .number::before{
     content:url("/theme/djazagro_git_desktop/img/icon-pro.svg")
 }
-.key-number .item .item-entreprise .number::before{
+.refonte .key-number .item .item-entreprise .number::before{
     content:url("/theme/djazagro_git_desktop/img/icon-stand.svg")
 }
-.key-number .item .item-visiteur .number::before{
+.refonte .key-number .item .item-visiteur .number::before{
     content:url("/theme/djazagro_git_desktop/img/icon-check.svg")
 }
-.key-number .item .item-continent .number::before{
+.refonte .key-number .item .item-continent .number::before{
     content:url("/theme/djazagro_git_desktop/img/icon-sector.svg")
 }
-.key-number .item .icon-item{
+.refonte .key-number .item .icon-item{
     text-align:center;
     display:flex;
     flex-direction:column;
     z-index:2;
     align-items:center
 }
-.key-number .item .icon-item p{
+.refonte .key-number .item .icon-item p{
     order:1;
     font-size:2rem;
     color:#27211F;
@@ -362,23 +362,23 @@ html{
     font-family:"lato-light",sans-serif;
     font-size:2rem
 }
-.key-number .item .icon-item .number{
+.refonte .key-number .item .icon-item .number{
     display:flex;
     flex-direction:column;
     align-items:center;
     padding-bottom:0
 }
-.key-number .item .icon-item .number span{
+.refonte .key-number .item .icon-item .number span{
     font-size:5.4rem;
     color:#6D2361;
     display:flex;
     font-family:"lato-bold",sans-serif;
     margin-top:2rem
 }
-.first-market{
+.refonte .first-market{
     display:flex
 }
-.first-market .first-market-content{
+.refonte .first-market .first-market-content{
     background-image:url("/theme/djazagro_git_desktop/img/img-first-nb.jpg");
     background-size:cover;
     padding:11.8rem 0;
@@ -390,13 +390,13 @@ html{
     padding-left:7.7rem;
     background-position:left
 }
-.first-market .first-market-content h2{
+.refonte .first-market .first-market-content h2{
     max-width:35rem;
     text-transform:inherit;
     position:relative;
     z-index:999
 }
-.first-market .first-market-content h2::before{
+.refonte .first-market .first-market-content h2::before{
     content:'';
     display:block;
     position:absolute;
@@ -412,7 +412,7 @@ html{
     transform:translate(-50%, -50%) rotate(45deg);
     z-index:-5
 }
-.first-market .first-market-content p{
+.refonte .first-market .first-market-content p{
     font-family:"lato-light",sans-serif;
     font-size:1.6rem;
     color:#27211F;
@@ -420,13 +420,13 @@ html{
     max-width:47rem;
     padding:2.8rem 0
 }
-.first-market .first-market-img{
+.refonte .first-market .first-market-img{
     background-image:url("/theme/djazagro_git_desktop/img/img-first-color.jpg");
     background-size:cover;
     background-position:right;
     flex:1
 }
-.relive-show{
+.refonte .relive-show{
     min-height:72.3rem;
     width:100%;
     background-image:url("/theme/djazagro_git_desktop/img/background-landing.jpg");
@@ -438,12 +438,12 @@ html{
     justify-content:center;
     position:relative
 }
-.relive-show h2{
+.refonte .relive-show h2{
     margin-bottom:5.7rem;
     z-index:999;
     padding-bottom:.5rem
 }
-.relive-show h2::before{
+.refonte .relive-show h2::before{
     content:'';
     display:block;
     position:absolute;
@@ -459,7 +459,7 @@ html{
     transform:translate(-50%, -50%) rotate(45deg);
     z-index:-5
 }
-.relive-show .container-video{
+.refonte .relive-show .container-video{
     width:79.7rem;
     height:41.5rem;
     background-image:url("/theme/djazagro_git_desktop/img/img-video.jpg");
@@ -470,12 +470,12 @@ html{
     justify-content:center;
     align-items:center
 }
-.relive-show .container-video:hover::after{
+.refonte .relive-show .container-video:hover::after{
     -webkit-animation:2s pulse ease infinite;
     animation:2s pulse ease infinite;
     content:url("/theme/djazagro_git_desktop/img/icon-play-gold.svg")
 }
-.relive-show .container-video::after{
+.refonte .relive-show .container-video::after{
     content:url("/theme/djazagro_git_desktop/img/icon-play.svg")
 }
 @-webkit-keyframes pulse{
