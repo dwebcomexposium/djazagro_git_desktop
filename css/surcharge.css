@@ -180,160 +180,6 @@ html{
     width:102.3rem;
     margin:0 auto
 }
-h2{
-    font-size:3.8rem;
-    font-family:"josefin-slab-bold",sans-serif;
-    color:#BA9347;
-    line-height:4.8rem;
-    text-transform:inherit;
-    border-bottom:0.2rem solid #BA9347
-}
-.list-articles{
-    background-repeat:repeat;
-    margin:0;
-    padding:5.5rem 0 3rem !important;
-    position:relative;
-    background-image:url("/theme/djazagro_git_desktop/img/paper_fibers.png");
-    background-repeat:repeat;
-    background-size:contain;
-    margin-top:0 !important
-}
-.list-articles .la-item{
-    margin-top:0
-}
-.list-articles .swiper-wrapper{
-    -webkit-transform:translate3d(-3210px, 0px, 0px);
-    transform:translate3d(-3210px, 0px, 0px);
-    transition:all 5s ease 0s;
-    position:relative;
-    width:100%;
-    height:100%;
-    z-index:1;
-    display:flex;
-    -webkit-transform-style:preserve-3d;
-    transform-style:preserve-3d;
-    transition-property:-webkit-transform;
-    transition-property:transform;
-    transition-property:transform, -webkit-transform;
-    transition-property:transform;
-    box-sizing:content-box
-}
-.list-articles .la-slider .slider-pagin{
-    background:inherit !important
-}
-.list-articles .la-slider .slider-pagin .slider-pagin-nb{
-    margin-top:0;
-    text-align:center;
-    position:absolute;
-    left:50%;
-    -webkit-transform:translateX(-50%);
-    transform:translateX(-50%);
-    bottom:2rem !important
-}
-.list-articles .la-slider .slider-pagin .slider-pagin-nb .slider-pagin-item{
-    border-radius:50px;
-    border:0;
-    width:1rem;
-    height:1rem;
-    background-color:#c6c6c6;
-    margin:0 .5rem;
-    transition:all .2s ease
-}
-.list-articles .la-slider .slider-content .slider-item{
-    background:0 0;
-    display:flex;
-    align-content:center;
-    justify-content:center;
-    align-items:center;
-    width:100%
-}
-.list-articles .la-slider .slider-content .slider-item .la-item-content .la-item-title{
-    font-size:2.4rem;
-    color:#8c7971;
-    font-family:cxpm-gudea-regular, Helvetica, Arial, sans-serif;
-    font-weight:400;
-    text-transform:none;
-    position:relative;
-    font-size:1.4rem;
-    opacity:.5;
-    order:2;
-    text-align:center;
-    align-self:center
-}
-.list-articles .la-slider .slider-content .slider-item .la-item-content .la-item-desc{
-    text-align:center;
-    margin:0;
-    padding:0;
-    position:relative;
-    max-width:60rem;
-    font-size:2.2rem;
-    color:#8c7971
-}
-.list-articles .la-slider .slider-content article{
-    background:inherit
-}
-.list-articles .slider-pagin{
-    background:0 0;
-    position:absolute;
-    width:100%;
-    height:100%;
-    left:0;
-    top:0;
-    position:relative;
-    z-index:5;
-    margin-top:0;
-    padding:1em;
-    background:#2b2f2f;
-    color:#fff
-}
-.list-articles .slider-pagin .slider-pagin-btn{
-    position:absolute;
-    top:50%;
-    right:0;
-    left:50%;
-    -webkit-transform:translateX(-50%);
-    transform:translateX(-50%);
-    max-width:calc(116rem + 10rem);
-    margin:0 auto;
-    display:flex
-}
-.list-articles .main-title-with-link{
-    display:flex;
-    align-content:center;
-    justify-content:center;
-    align-items:center;
-    border:0
-}
-.list-articles .main-title-with-link::after{
-    display:none
-}
-.list-articles .main-title-with-link h2.la-main-title{
-    font-size:3.2rem;
-    color:#BA9347;
-    font-family:"josefin-slab-bold",sans-serif;
-    position:relative;
-    background:inherit;
-    text-transform:inherit;
-    border-bottom:2px solid #BA9347;
-    z-index:999;
-    padding-bottom:.5rem
-}
-.list-articles .main-title-with-link h2.la-main-title::before{
-    content:'';
-    display:block;
-    position:absolute;
-    width:12px;
-    height:12px;
-    top:48px;
-    left:50%;
-    margin:0 auto;
-    background:#BA9347;
-    background-clip:content-box;
-    border:15px solid #f1f1f1;
-    -webkit-transform:translate(-50%, -50%) rotate(45deg);
-    transform:translate(-50%, -50%) rotate(45deg);
-    z-index:-5
-}
 .pub{
     display:flex;
     justify-content:center;
@@ -675,6 +521,160 @@ h2{
         -webkit-transform:scale3d(1, 1, 1);
         transform:scale3d(1, 1, 1)
     }
+}
+.refonte h2{
+    font-size:3.8rem;
+    font-family:"josefin-slab-bold",sans-serif;
+    color:#BA9347;
+    line-height:4.8rem;
+    text-transform:inherit;
+    border-bottom:0.2rem solid #BA9347
+}
+.refonte .list-articles{
+    background-repeat:repeat;
+    margin:0;
+    padding:5.5rem 0 3rem !important;
+    position:relative;
+    background-image:url("/theme/djazagro_git_desktop/img/paper_fibers.png");
+    background-repeat:repeat;
+    background-size:contain;
+    margin-top:0 !important
+}
+.refonte .list-articles .la-item{
+    margin-top:0
+}
+.refonte .list-articles .swiper-wrapper{
+    -webkit-transform:translate3d(-3210px, 0px, 0px);
+    transform:translate3d(-3210px, 0px, 0px);
+    transition:all 5s ease 0s;
+    position:relative;
+    width:100%;
+    height:100%;
+    z-index:1;
+    display:flex;
+    -webkit-transform-style:preserve-3d;
+    transform-style:preserve-3d;
+    transition-property:-webkit-transform;
+    transition-property:transform;
+    transition-property:transform, -webkit-transform;
+    transition-property:transform;
+    box-sizing:content-box
+}
+.refonte .list-articles .la-slider .slider-pagin{
+    background:inherit !important
+}
+.refonte .list-articles .la-slider .slider-pagin .slider-pagin-nb{
+    margin-top:0;
+    text-align:center;
+    position:absolute;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    transform:translateX(-50%);
+    bottom:2rem !important
+}
+.refonte .list-articles .la-slider .slider-pagin .slider-pagin-nb .slider-pagin-item{
+    border-radius:50px;
+    border:0;
+    width:1rem;
+    height:1rem;
+    background-color:#c6c6c6;
+    margin:0 .5rem;
+    transition:all .2s ease
+}
+.refonte .list-articles .la-slider .slider-content .slider-item{
+    background:0 0;
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    align-items:center;
+    width:100%
+}
+.refonte .list-articles .la-slider .slider-content .slider-item .la-item-content .la-item-title{
+    font-size:2.4rem;
+    color:#8c7971;
+    font-family:cxpm-gudea-regular, Helvetica, Arial, sans-serif;
+    font-weight:400;
+    text-transform:none;
+    position:relative;
+    font-size:1.4rem;
+    opacity:.5;
+    order:2;
+    text-align:center;
+    align-self:center
+}
+.refonte .list-articles .la-slider .slider-content .slider-item .la-item-content .la-item-desc{
+    text-align:center;
+    margin:0;
+    padding:0;
+    position:relative;
+    max-width:60rem;
+    font-size:2.2rem;
+    color:#8c7971
+}
+.refonte .list-articles .la-slider .slider-content article{
+    background:inherit
+}
+.refonte .list-articles .slider-pagin{
+    background:0 0;
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    position:relative;
+    z-index:5;
+    margin-top:0;
+    padding:1em;
+    background:#2b2f2f;
+    color:#fff
+}
+.refonte .list-articles .slider-pagin .slider-pagin-btn{
+    position:absolute;
+    top:50%;
+    right:0;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    transform:translateX(-50%);
+    max-width:calc(116rem + 10rem);
+    margin:0 auto;
+    display:flex
+}
+.refonte .list-articles .main-title-with-link{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    align-items:center;
+    border:0
+}
+.refonte .list-articles .main-title-with-link::after{
+    display:none
+}
+.refonte .list-articles .main-title-with-link h2.la-main-title{
+    font-size:3.2rem;
+    color:#BA9347;
+    font-family:"josefin-slab-bold",sans-serif;
+    position:relative;
+    background:inherit;
+    text-transform:inherit;
+    border-bottom:2px solid #BA9347;
+    z-index:999;
+    padding-bottom:.5rem
+}
+.refonte .list-articles .main-title-with-link h2.la-main-title::before{
+    content:'';
+    display:block;
+    position:absolute;
+    width:12px;
+    height:12px;
+    top:48px;
+    left:50%;
+    margin:0 auto;
+    background:#BA9347;
+    background-clip:content-box;
+    border:15px solid #f1f1f1;
+    -webkit-transform:translate(-50%, -50%) rotate(45deg);
+    transform:translate(-50%, -50%) rotate(45deg);
+    z-index:-5
 }
 .refonte .landing{
     background-image:url("/theme/djazagro_git_desktop/img/background-landing.jpg");
