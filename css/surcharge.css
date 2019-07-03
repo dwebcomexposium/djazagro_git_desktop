@@ -694,6 +694,15 @@ html {
 	}
 }
 
+.content76595 .article-content table tbody tr {
+	border: none !important
+}
+
+.content78024 .article-content ul li {
+	font-size: 16px !important;
+	line-height: 27px !important
+}
+
 .refonte header .inside {
 	z-index: 999 !important
 }
