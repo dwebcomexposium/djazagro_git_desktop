@@ -28,6 +28,21 @@
 	src: url("/theme/djazagro_git_desktop/fonts/lato/Lato-Light.woff")
 }
 
+@font-face {
+	font-family: 'futura-light';
+	src: url("/theme/djazagro_git_desktop/fonts/futura/futura-light-bt.woff")
+}
+
+@font-face {
+	font-family: 'futura-medium';
+	src: url("/theme/djazagro_git_desktop/fonts/futura/futura-medium-bt.woff")
+}
+
+@font-face {
+	font-family: 'futura-bold';
+	src: url("/theme/djazagro_git_desktop/fonts/futura/Futura-Bold-font_1.woff")
+}
+
 html,
 body,
 div,
@@ -195,7 +210,7 @@ html {
 	align-items: center
 }
 
-.btn-small {
+.refonte .btn-small {
 	display: inline-block;
 	font-size: 1.2rem;
 	line-height: 1.8rem;
@@ -204,18 +219,18 @@ html {
 	transition: all .2s ease
 }
 
-.btn-small:hover {
+.refonte .btn-small:hover {
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05)
 }
 
-.btn-small.btn-small-gold {
+.refonte .btn-small.btn-small-gold {
 	color: white;
 	border: 3px solid #BA9347;
 	background-color: #BA9347
 }
 
-.btn {
+.refonte .btn {
 	display: inline-block;
 	font-size: 1.5rem;
 	line-height: 2.1rem;
@@ -225,74 +240,74 @@ html {
 	transition: all .2s ease
 }
 
-.btn:hover {
+.refonte .btn:hover {
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05)
 }
 
-.btn:hover::after {
+.refonte .btn:hover::after {
 	-webkit-animation: 2s anim-arrow ease infinite;
 	animation: 2s anim-arrow ease infinite
 }
 
-.btn.btn-bg-gold {
+.refonte .btn.btn-bg-gold {
 	border: 3px solid #BA9347;
 	background-color: #BA9347;
 	position: relative
 }
 
-.btn.btn-bg-gold:hover {
+.refonte .btn.btn-bg-gold:hover {
 	color: white
 }
 
-.btn.btn-bg-gold::after {
+.refonte .btn.btn-bg-gold::after {
 	content: url(/theme/djazagro_git_desktop/img/arrow-white.svg);
 	position: absolute;
 	right: 2rem
 }
 
-.btn.btn-bg-white {
+.refonte .btn.btn-bg-white {
 	background-color: white;
 	border: 3px solid white
 }
 
-.btn.btn-bg-white.btn-txt-purple {
+.refonte .btn.btn-bg-white.btn-txt-purple {
 	color: #6D2361;
 	position: relative
 }
 
-.btn.btn-bg-white.btn-txt-purple::after {
+.refonte .btn.btn-bg-white.btn-txt-purple::after {
 	content: url(/theme/djazagro_git_desktop/img/arrow-purple.svg);
 	position: absolute;
 	right: 2rem
 }
 
-.btn.btn-bg-white.btn-txt-green {
+.refonte .btn.btn-bg-white.btn-txt-green {
 	color: #54B948;
 	position: relative
 }
 
-.btn.btn-bg-white.btn-txt-green::after {
+.refonte .btn.btn-bg-white.btn-txt-green::after {
 	content: url(/theme/djazagro_git_desktop/img/arrow-green.svg);
 	position: absolute;
 	right: 2rem
 }
 
-.btn.btn-border {
+.refonte .btn.btn-border {
 	border: 3px solid;
 	background: transparent
 }
 
-.btn.btn-border.btn-border-gold {
+.refonte .btn.btn-border.btn-border-gold {
 	border-color: #BA9347
 }
 
-.btn.btn-border.btn-txt-gold {
+.refonte .btn.btn-border.btn-txt-gold {
 	color: #BA9347;
 	position: relative
 }
 
-.btn.btn-border.btn-txt-gold::after {
+.refonte .btn.btn-border.btn-txt-gold::after {
 	content: url(/theme/djazagro_git_desktop/img/arrow-gold.svg);
 	position: absolute;
 	right: 2rem
@@ -311,6 +326,84 @@ html {
 }
 
 .refonte .openx-banner {
+	display: none !important
+}
+
+.refonte header.site-banner .inside .site-banner-event {
+	float: left;
+	height: 120px;
+	border-right: 1px solid #ecebf1;
+	background-color: #fff;
+	z-index: 10
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-logo {
+	display: block;
+	position: relative;
+	padding: 10px 15px 10px 15px;
+	z-index: 5;
+	width: 305px;
+	padding-left: 20px
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-logo .logo-title {
+	display: block;
+	position: relative;
+	width: 250px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	font-family: "Futura W01", sans-serif;
+	font-weight: 300;
+	font-style: oblique;
+	font-size: 0.6rem;
+	color: #8c8b8b;
+	line-height: 1;
+	background: url(/theme/djazagro_git_desktop/img/logo_fr.png) left top no-repeat;
+	background-size: contain;
+	border: 0 none
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-date {
+	display: block;
+	position: relative;
+	padding: 0 15px 10px 30px;
+	text-align: center;
+	z-index: 5
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title {
+	font-size: 1.9rem;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 1;
+	color: #6d2361;
+	text-transform: uppercase
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-baseline {
+	display: block;
+	margin-top: 4px;
+	font-style: oblique;
+	line-height: 1;
+	color: #8c8b8b;
+	letter-spacing: 0.22em;
+	text-transform: uppercase;
+	font-size: 0.7rem
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-baseline .sep {
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	margin-bottom: 4px;
+	text-indent: -9999px;
+	vertical-align: middle;
+	border-radius: 50%;
+	background: #51ae35
+}
+
+.refonte .site-banner-event::after {
 	display: none !important
 }
 
