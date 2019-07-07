@@ -338,6 +338,14 @@ html {
    line-height: 27px !important
 }
 
+.icon-shopping_basket:before {
+   background-image: inherit !important
+}
+
+#cxpmClientAccountWidget .widget-my-selection .widget-icon {
+   margin-right: 4rem
+}
+
 .refonte header .inside {
    z-index: 999 !important
 }
@@ -744,7 +752,8 @@ html {
    color: #8c8b8b;
    letter-spacing: 0.22em;
    text-transform: uppercase;
-   font-size: 0.7rem
+   font-size: 0.7rem;
+   justify-content: center
 }
 
 .refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-baseline .sep {
