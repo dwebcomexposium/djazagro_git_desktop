@@ -708,6 +708,12 @@ html {
    z-index: 5
 }
 
+@media screen and (max-width: 1280px) {
+   .refonte header.site-banner .inside .site-banner-event .site-banner-date {
+      width: inherit
+   }
+}
+
 .refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title {
    font-size: 1.9rem;
    font-weight: 700;
@@ -721,6 +727,14 @@ html {
 .refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-month,
 .refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-year {
    font-size: 2.3rem
+}
+
+@media screen and (max-width: 1280px) {
+   .refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title span.date-day,
+   .refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-month,
+   .refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-year {
+      font-size: 1.9rem
+   }
 }
 
 .refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title span.date-day,
