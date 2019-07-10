@@ -198,8 +198,14 @@ html{
     font-size:16px !important;
     line-height:27px !important
 }
+.global-newsletter-form{
+    z-index:999
+}
+.not-logged{
+    margin-right:2.5rem
+}
 #cxpmClientAccountWidget .widget-my-selection .widget-icon{
-    margin-right:4rem
+    margin-right:6rem
 }
 .refonte header .inside{
     z-index:999 !important
