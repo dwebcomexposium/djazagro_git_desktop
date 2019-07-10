@@ -185,9 +185,6 @@ html{
 .refonte .slider-pagin button{
     display:none
 }
-.refonte .openx-banner{
-    display:none !important
-}
 .content76595 .article-content table tbody tr{
     border:none !important
 }
@@ -590,9 +587,6 @@ html{
     vertical-align:middle;
     border-radius:50%;
     background:#51ae35
-}
-.refonte .site-banner-event::after{
-    display:none !important
 }
 .refonte .wrapper-perso{
     width:102.3rem;
