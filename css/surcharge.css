@@ -198,9 +198,6 @@ html{
     font-size:16px !important;
     line-height:27px !important
 }
-.icon-shopping_basket:before{
-    background-image:inherit !important
-}
 #cxpmClientAccountWidget .widget-my-selection .widget-icon{
     margin-right:4rem
 }
