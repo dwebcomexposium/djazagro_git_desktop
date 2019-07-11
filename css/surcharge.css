@@ -207,6 +207,12 @@ html{
 .refonte #cxpmClientAccountWidget .widget-my-selection .widget-icon{
     margin-right:4rem
 }
+.refonte .site-footer .inside .quicklinks{
+    padding-left:0 !important
+}
+.refonte .cap-container{
+    height:initial !important
+}
 .refonte header .inside{
     z-index:999 !important
 }
@@ -397,7 +403,7 @@ html{
     background-size:cover;
     padding:7.5rem 0;
     background-color:#f8f8f8;
-    min-height:59rem
+    min-height:63.5rem
 }
 .refonte .landing .container-landing{
     position:relative;
