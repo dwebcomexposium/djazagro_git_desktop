@@ -207,6 +207,11 @@ html{
 .refonte #cxpmClientAccountWidget .widget-my-selection .widget-icon{
     margin-right:4rem
 }
+@media screen and (max-width: 768px){
+    .refonte .site-footer{
+        padding-left:4rem
+    }
+}
 .refonte .site-footer .inside .quicklinks{
     padding-left:0 !important
 }
@@ -912,6 +917,11 @@ html{
     max-width:47rem;
     padding:2.8rem 0
 }
+@media screen and (max-width: 768px){
+    .refonte .first-market .first-market-content p{
+        padding-left:6rem
+    }
+}
 .refonte .first-market .first-market-img{
     background-image:url("/theme/djazagro_git_desktop/img/img-first-color.jpg");
     background-size:cover;
@@ -999,6 +1009,11 @@ html{
 }
 .refonte .edito.seo .inside .js-wrap_h3 h3{
     color:#2D2F30 !important
+}
+@media screen and (max-width: 768px){
+    .refonte .edito.seo{
+        padding-left:4rem
+    }
 }
 @-webkit-keyframes pulse{
     0%{
