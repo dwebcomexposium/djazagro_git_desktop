@@ -609,6 +609,212 @@ html {
    background: #51ae35
 }
 
+.refonte .block-page.list-articles.visiteurs {
+   width: 50%;
+   display: inline-block
+}
+
+.refonte .block-page.list-articles.exposants {
+   width: 50%;
+   float: left
+}
+
+.refonte .cxp-swiper .slider-pagin {
+   display: none
+}
+
+.refonte .cap-container {
+   height: initial !important
+}
+
+.refonte header .inside {
+   z-index: 999 !important
+}
+
+.refonte h2 {
+   font-size: 3.8rem;
+   font-family: "josefin-slab-bold", sans-serif;
+   color: #BA9347;
+   line-height: 4.8rem;
+   text-transform: inherit;
+   border-bottom: 0.2rem solid #BA9347;
+   z-index: 2 !important
+}
+
+.refonte .list-articles {
+   background-repeat: repeat;
+   margin: 0;
+   padding: 8.5rem 0 3rem !important;
+   position: relative;
+   background-image: url("/theme/djazagro_git_desktop/img/paper_fibers.png");
+   background-repeat: repeat;
+   background-size: contain;
+   margin-top: 0 !important
+}
+
+.refonte .list-articles .la-item {
+   margin-top: 0
+}
+
+.refonte .list-articles .swiper-wrapper {
+   -webkit-transform: translate3d(-3210px, 0px, 0px);
+   transform: translate3d(-3210px, 0px, 0px);
+   transition: all 5s ease 0s;
+   position: relative;
+   width: 100%;
+   height: 100%;
+   z-index: 1;
+   display: flex;
+   -webkit-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+   transition-property: -webkit-transform;
+   transition-property: transform;
+   transition-property: transform, -webkit-transform;
+   transition-property: transform;
+   box-sizing: content-box
+}
+
+.refonte .list-articles .la-slider .slider-pagin {
+   background: inherit !important
+}
+
+.refonte .list-articles .la-slider .slider-pagin .slider-pagin-btn button i {
+   opacity: 1;
+   -webkit-transform: rotate(180deg);
+   transform: rotate(180deg);
+   color: #64c2c8;
+   padding-top: 20px
+}
+
+.refonte .list-articles .la-slider .slider-pagin .slider-pagin-btn button i::before {
+   content: "\e604"
+}
+
+.refonte .list-articles .la-slider .slider-pagin .slider-pagin-nb {
+   margin-top: 0;
+   text-align: center;
+   position: absolute;
+   left: 50%;
+   -webkit-transform: translateX(-50%);
+   transform: translateX(-50%);
+   bottom: 2rem !important
+}
+
+.refonte .list-articles .la-slider .slider-pagin .slider-pagin-nb .slider-pagin-item {
+   border-radius: 50px;
+   border: 0;
+   width: 1rem;
+   height: 1rem;
+   background-color: #c6c6c6;
+   margin: 0 .5rem;
+   transition: all .2s ease
+}
+
+.refonte .list-articles .la-slider .slider-content .slider-item {
+   background: 0 0;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+   width: 100%
+}
+
+.refonte .list-articles .la-slider .slider-content .slider-item .la-item-content .la-item-title {
+   font-size: 2.4rem;
+   color: #8c7971;
+   font-family: cxpm-gudea-regular, Helvetica, Arial, sans-serif;
+   font-weight: 400;
+   text-transform: none;
+   position: relative;
+   font-size: 1.4rem;
+   opacity: .5;
+   order: 2;
+   text-align: center;
+   align-self: center
+}
+
+.refonte .list-articles .la-slider .slider-content .slider-item .la-item-content .la-item-desc {
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   max-width: 60rem;
+   font-size: 2.2rem;
+   color: #8c7971
+}
+
+.refonte .list-articles .la-slider .slider-content article {
+   background: inherit
+}
+
+.refonte .list-articles .slider-pagin {
+   background: 0 0;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   position: relative;
+   z-index: 5;
+   margin-top: 0;
+   padding: 1em;
+   background: #2b2f2f;
+   color: #fff
+}
+
+.refonte .list-articles .slider-pagin .slider-pagin-btn {
+   position: absolute;
+   top: 50%;
+   right: 0;
+   left: 50%;
+   -webkit-transform: translateX(-50%);
+   transform: translateX(-50%);
+   max-width: calc(116rem + 10rem);
+   margin: 0 auto;
+   display: flex
+}
+
+.refonte .list-articles .main-title-with-link {
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+   border: 0
+}
+
+.refonte .list-articles .main-title-with-link::after {
+   display: none
+}
+
+.refonte .list-articles .main-title-with-link h2.la-main-title {
+   font-size: 3.2rem;
+   color: #BA9347;
+   font-family: "josefin-slab-bold", sans-serif;
+   position: relative;
+   background: inherit;
+   text-transform: inherit;
+   border-bottom: 2px solid #BA9347;
+   z-index: 999;
+   padding-bottom: .5rem
+}
+
+.refonte .list-articles .main-title-with-link h2.la-main-title::before {
+   content: '';
+   display: block;
+   position: absolute;
+   width: 12px;
+   height: 12px;
+   top: 48px;
+   left: 50%;
+   margin: 0 auto;
+   background: #BA9347;
+   background-clip: content-box;
+   border: 15px solid #f1f1f1;
+   -webkit-transform: translate(-50%, -50%) rotate(45deg);
+   transform: translate(-50%, -50%) rotate(45deg);
+   z-index: -5
+}
+
 .refonte .landing {
    background-image: url("/theme/djazagro_git_desktop/img/background-landing.jpg");
    background-repeat: no-repeat;
@@ -731,6 +937,311 @@ html {
    .refonte .landing .landing-visual img {
       display: none
    }
+}
+
+.refonte header.site-banner .inside .site-banner-event {
+   float: left;
+   height: 120px;
+   border-right: 1px solid #ecebf1;
+   background-color: #fff;
+   z-index: 10
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-logo {
+   display: block;
+   position: relative;
+   padding: 10px 15px 10px 15px;
+   z-index: 5;
+   width: 305px;
+   padding-left: 20px
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-logo .logo-title {
+   display: block;
+   position: relative;
+   width: 250px;
+   height: 50px;
+   margin: 0;
+   padding: 0;
+   font-family: "Futura W01", sans-serif;
+   font-weight: 300;
+   font-style: oblique;
+   font-size: 0.6rem;
+   color: #8c8b8b;
+   line-height: 1;
+   background: url(/theme/djazagro_git_desktop/img/logo_fr.png) left top no-repeat;
+   background-size: contain;
+   border: 0 none
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-date {
+   display: block;
+   position: relative;
+   padding: 0 15px 10px 30px;
+   text-align: center;
+   z-index: 5
+}
+
+@media screen and (max-width: 1280px) {
+   .refonte header.site-banner .inside .site-banner-event .site-banner-date {
+      width: inherit
+   }
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title {
+   font-size: 1.9rem;
+   font-weight: 700;
+   font-style: normal;
+   line-height: 1;
+   color: #6d2361;
+   text-transform: uppercase
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title span.date-day,
+.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-month,
+.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-year {
+   font-size: 2.3rem
+}
+
+@media screen and (max-width: 1280px) {
+   .refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title span.date-day,
+   .refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-month,
+   .refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-year {
+      font-size: 1.9rem
+   }
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title span.date-day,
+.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-year {
+   font-weight: bolder
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-month {
+   font-weight: lighter
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title span.sep {
+   margin: 0;
+   display: inline-block;
+   width: 7px;
+   height: 7px;
+   margin-bottom: 4px;
+   text-indent: -9999px;
+   vertical-align: middle;
+   border-radius: 50%;
+   background: #51ae35
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-baseline {
+   display: flex;
+   margin: 0;
+   font-style: oblique;
+   line-height: 1;
+   color: #8c8b8b;
+   letter-spacing: 0.22em;
+   text-transform: uppercase;
+   font-size: 0.7rem;
+   justify-content: center
+}
+
+.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-baseline .sep {
+   display: inline-block;
+   width: 7px;
+   height: 7px;
+   margin-bottom: 4px;
+   text-indent: -9999px;
+   vertical-align: middle;
+   border-radius: 50%;
+   background: #51ae35
+}
+
+.refonte .wrapper-perso {
+   width: 102.3rem;
+   margin: 0 auto
+}
+
+.refonte .btn-testi {
+   position: absolute !important;
+   bottom: 8rem;
+   left: 45%
+}
+
+.refonte .global-testimonials {
+   display: flex;
+   position: relative;
+   padding-bottom: 14rem;
+   background-image: url(/theme/djazagro_git_desktop/img/paper_fibers.png);
+   background-repeat: repeat;
+   background-size: contain
+}
+
+.refonte .temoignages-visiteurs,
+.refonte .temoignages-exposants {
+   max-width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center
+}
+
+.refonte .temoignages-visiteurs .slider-pagin-nb,
+.refonte .temoignages-exposants .slider-pagin-nb {
+   margin-top: 0;
+   text-align: center;
+   position: absolute;
+   left: 50%;
+   -webkit-transform: translateX(-50%);
+   transform: translateX(-50%);
+   bottom: 5rem
+}
+
+.refonte .temoignages-visiteurs .slider-pagin-nb span.slider-pagin-item,
+.refonte .temoignages-exposants .slider-pagin-nb span.slider-pagin-item {
+   background-color: #e5ded0 !important
+}
+
+.refonte .temoignages-visiteurs .slider-pagin-nb span.slider-pagin-item.is-active,
+.refonte .temoignages-exposants .slider-pagin-nb span.slider-pagin-item.is-active {
+   background-color: #BA9347 !important
+}
+
+.refonte .temoignages-visiteurs .slider-pagin-nb span,
+.refonte .temoignages-exposants .slider-pagin-nb span {
+   background: none
+}
+
+.refonte .temoignages-visiteurs .slider-item .la-item-content,
+.refonte .temoignages-exposants .slider-item .la-item-content {
+   display: flex;
+   flex-direction: column
+}
+
+.refonte .temoignages-visiteurs .slider-item .la-item-content .la-item-desc,
+.refonte .temoignages-exposants .slider-item .la-item-content .la-item-desc {
+   color: #27211F !important;
+   font-size: 2.2rem !important;
+   line-height: 2.7rem !important;
+   font-family: "lato-light", sans-serif !important;
+   max-width: 40.7rem !important
+}
+
+.refonte .temoignages-visiteurs .slider-item .la-item-content em,
+.refonte .temoignages-exposants .slider-item .la-item-content em {
+   text-align: center;
+   color: #C1C1C1;
+   font-size: 1.6rem;
+   font-family: "lato-light", sans-serif;
+   padding-top: 4.3rem
+}
+
+.refonte .temoignages-visiteurs .la-item-content,
+.refonte .temoignages-exposants .la-item-content {
+   padding-bottom: 6rem;
+   padding-top: 2rem
+}
+
+.refonte .pub {
+   display: flex;
+   justify-content: center;
+   background-color: #464646
+}
+
+.refonte .footer-contact .prefooter-wrapper {
+   display: flex;
+   justify-content: space-between;
+   background-image: url("/theme/djazagro_git_desktop/img/paper_fibers.png");
+   background-repeat: repeat
+}
+
+@media screen and (max-width: 480px) {
+   .refonte .footer-contact .prefooter-wrapper {
+      flex-direction: column !important;
+      background: red
+   }
+}
+
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc {
+   width: 32.5%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-right: .1rem solid #d8d8d8;
+   padding: 5rem 0
+}
+
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(1) h3::before {
+   content: url("/theme/djazagro_git_desktop/img/picto-question.svg")
+}
+
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(2) h3::before {
+   content: url("/theme/djazagro_git_desktop/img/picto-info.svg")
+}
+
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) h3::before {
+   content: url("/theme/djazagro_git_desktop/img/picto-reseaux.svg")
+}
+
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc h3 {
+   display: flex;
+   align-items: center
+}
+
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc h3::before {
+   margin-right: 1.5rem
+}
+
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc ul li a img {
+   transition: all .2s ease
+}
+
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc ul li a img:hover {
+   -webkit-transform: scale(1.08);
+   transform: scale(1.08)
+}
+
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) ul {
+   display: inline-block;
+   list-style-type: none;
+   padding: 0 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 1rem
+}
+
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) li {
+   display: inline-block;
+   margin-right: 2rem;
+   margin-bottom: 1rem
+}
+
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) li:last-child {
+   margin-right: 0 !important
+}
+
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) p {
+   margin-bottom: 0 !important
+}
+
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc h3 {
+   margin-bottom: .7rem;
+   font-size: 2.4rem;
+   font-family: "josefin-slab-bold", sans-serif;
+   text-transform: inherit
+}
+
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc p {
+   color: #a2a2a2;
+   font-size: 1.6rem;
+   margin-bottom: 2rem;
+   text-align: center;
+   line-height: 2rem
+}
+
+.refonte .footer-contact .prefooter-wrapper .prefooter-bloc p:nth-child(4) {
+   color: #BA9347;
+   font-size: 2rem;
+   font-family: "lato-regular", sans-serif
 }
 
 .refonte .what-profil {
@@ -928,20 +1439,6 @@ html {
    flex: 1
 }
 
-.refonte .block-page.list-articles.visiteurs {
-   width: 50%;
-   display: inline-block
-}
-
-.refonte .block-page.list-articles.exposants {
-   width: 50%;
-   float: left
-}
-
-.refonte .cxp-swiper .slider-pagin {
-   display: none
-}
-
 .refonte .relive-show {
    min-height: 72.3rem;
    width: 100%;
@@ -1000,84 +1497,14 @@ html {
    content: url("/theme/djazagro_git_desktop/img/icon-play.svg")
 }
 
-.refonte .cap-container {
-   height: initial !important
+@media screen and (max-width: 768px) {
+   .refonte .site-footer {
+      padding-left: 4rem
+   }
 }
 
-.refonte header .inside {
-   z-index: 999 !important
-}
-
-.refonte h2 {
-   font-size: 3.8rem;
-   font-family: "josefin-slab-bold", sans-serif;
-   color: #BA9347;
-   line-height: 4.8rem;
-   text-transform: inherit;
-   border-bottom: 0.2rem solid #BA9347;
-   z-index: 2 !important
-}
-
-.refonte .list-articles {
-   background-repeat: repeat;
-   margin: 0;
-   padding: 8.5rem 0 3rem !important;
-   position: relative;
-   background-image: url("/theme/djazagro_git_desktop/img/paper_fibers.png");
-   background-repeat: repeat;
-   background-size: contain;
-   margin-top: 0 !important
-}
-
-.refonte .list-articles .la-item {
-   margin-top: 0
-}
-
-.refonte .list-articles .main-title-with-link {
-   display: flex;
-   align-content: center;
-   justify-content: center;
-   align-items: center;
-   border: 0
-}
-
-.refonte .list-articles .main-title-with-link::after {
-   display: none
-}
-
-.refonte .list-articles .main-title-with-link h2.la-main-title {
-   font-size: 3.2rem;
-   color: #BA9347;
-   font-family: "josefin-slab-bold", sans-serif;
-   position: relative;
-   background: inherit;
-   text-transform: inherit;
-   border-bottom: 2px solid #BA9347;
-   z-index: 999;
-   padding-bottom: .5rem
-}
-
-.refonte .list-articles .main-title-with-link h2.la-main-title::before {
-   content: '';
-   display: block;
-   position: absolute;
-   width: 12px;
-   height: 12px;
-   top: 48px;
-   left: 50%;
-   margin: 0 auto;
-   background: #BA9347;
-   background-clip: content-box;
-   border: 15px solid #f1f1f1;
-   -webkit-transform: translate(-50%, -50%) rotate(45deg);
-   transform: translate(-50%, -50%) rotate(45deg);
-   z-index: -5
-}
-
-.refonte .pub {
-   display: flex;
-   justify-content: center;
-   background-color: #464646
+.refonte .site-footer .inside .quicklinks {
+   padding-left: 0 !important
 }
 
 .refonte .edito.seo {
@@ -1119,6 +1546,21 @@ html {
 @media screen and (max-width: 768px) {
    .refonte .edito.seo {
       padding-left: 4rem
+   }
+}
+
+@keyframes pulse {
+   0% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1)
+   }
+   50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05)
+   }
+   100% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1)
    }
 }
 
