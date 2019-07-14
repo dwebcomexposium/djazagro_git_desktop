@@ -609,13 +609,27 @@ html {
    background: #51ae35
 }
 
+.refonte .block-page.list-articles.visiteurs,
+.refonte .block-page.list-articles.exposants {
+   width: 50%
+}
+
+.refonte .block-page.list-articles.visiteurs .cxp-swiper .swiper-wrapper .slider-item img,
+.refonte .block-page.list-articles.exposants .cxp-swiper .swiper-wrapper .slider-item img {
+   display: none
+}
+
+.refonte .block-page.list-articles.visiteurs .cxp-swiper .swiper-wrapper .slider-item .la-item-content,
+.refonte .block-page.list-articles.exposants .cxp-swiper .swiper-wrapper .slider-item .la-item-content {
+   display: flex;
+   flex-direction: column
+}
+
 .refonte .block-page.list-articles.visiteurs {
-   width: 50%;
    display: inline-block
 }
 
 .refonte .block-page.list-articles.exposants {
-   width: 50%;
    float: left
 }
 
@@ -937,122 +951,6 @@ html {
    .refonte .landing .landing-visual img {
       display: none
    }
-}
-
-.refonte header.site-banner .inside .site-banner-event {
-   float: left;
-   height: 120px;
-   border-right: 1px solid #ecebf1;
-   background-color: #fff;
-   z-index: 10
-}
-
-.refonte header.site-banner .inside .site-banner-event .site-banner-logo {
-   display: block;
-   position: relative;
-   padding: 10px 15px 10px 15px;
-   z-index: 5;
-   width: 305px;
-   padding-left: 20px
-}
-
-.refonte header.site-banner .inside .site-banner-event .site-banner-logo .logo-title {
-   display: block;
-   position: relative;
-   width: 250px;
-   height: 50px;
-   margin: 0;
-   padding: 0;
-   font-family: "Futura W01", sans-serif;
-   font-weight: 300;
-   font-style: oblique;
-   font-size: 0.6rem;
-   color: #8c8b8b;
-   line-height: 1;
-   background: url(/theme/djazagro_git_desktop/img/logo_fr.png) left top no-repeat;
-   background-size: contain;
-   border: 0 none
-}
-
-.refonte header.site-banner .inside .site-banner-event .site-banner-date {
-   display: block;
-   position: relative;
-   padding: 0 15px 10px 30px;
-   text-align: center;
-   z-index: 5
-}
-
-@media screen and (max-width: 1280px) {
-   .refonte header.site-banner .inside .site-banner-event .site-banner-date {
-      width: inherit
-   }
-}
-
-.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title {
-   font-size: 1.9rem;
-   font-weight: 700;
-   font-style: normal;
-   line-height: 1;
-   color: #6d2361;
-   text-transform: uppercase
-}
-
-.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title span.date-day,
-.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-month,
-.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-year {
-   font-size: 2.3rem
-}
-
-@media screen and (max-width: 1280px) {
-   .refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title span.date-day,
-   .refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-month,
-   .refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-year {
-      font-size: 1.9rem
-   }
-}
-
-.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title span.date-day,
-.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-year {
-   font-weight: bolder
-}
-
-.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-month {
-   font-weight: lighter
-}
-
-.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title span.sep {
-   margin: 0;
-   display: inline-block;
-   width: 7px;
-   height: 7px;
-   margin-bottom: 4px;
-   text-indent: -9999px;
-   vertical-align: middle;
-   border-radius: 50%;
-   background: #51ae35
-}
-
-.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-baseline {
-   display: flex;
-   margin: 0;
-   font-style: oblique;
-   line-height: 1;
-   color: #8c8b8b;
-   letter-spacing: 0.22em;
-   text-transform: uppercase;
-   font-size: 0.7rem;
-   justify-content: center
-}
-
-.refonte header.site-banner .inside .site-banner-event .site-banner-date .date-title .date-baseline .sep {
-   display: inline-block;
-   width: 7px;
-   height: 7px;
-   margin-bottom: 4px;
-   text-indent: -9999px;
-   vertical-align: middle;
-   border-radius: 50%;
-   background: #51ae35
 }
 
 .refonte .wrapper-perso {
@@ -1497,16 +1395,6 @@ html {
    content: url("/theme/djazagro_git_desktop/img/icon-play.svg")
 }
 
-@media screen and (max-width: 768px) {
-   .refonte .site-footer {
-      padding-left: 4rem
-   }
-}
-
-.refonte .site-footer .inside .quicklinks {
-   padding-left: 0 !important
-}
-
 .refonte .edito.seo {
    background: inherit !important
 }
@@ -1546,21 +1434,6 @@ html {
 @media screen and (max-width: 768px) {
    .refonte .edito.seo {
       padding-left: 4rem
-   }
-}
-
-@keyframes pulse {
-   0% {
-      -webkit-transform: scale3d(1, 1, 1);
-      transform: scale3d(1, 1, 1)
-   }
-   50% {
-      -webkit-transform: scale3d(1.05, 1.05, 1.05);
-      transform: scale3d(1.05, 1.05, 1.05)
-   }
-   100% {
-      -webkit-transform: scale3d(1, 1, 1);
-      transform: scale3d(1, 1, 1)
    }
 }
 
