@@ -612,7 +612,10 @@ html {
 .refonte .block-page.list-articles.visiteurs,
 .refonte .block-page.list-articles.exposants {
    width: 50%;
-   min-height: 36.1rem
+   min-height: 36.1rem;
+   justify-content: center;
+   display: inline-flex;
+   flex-direction: column
 }
 
 .refonte .block-page.list-articles.visiteurs .cxp-swiper .swiper-wrapper .slider-item img,
@@ -640,12 +643,6 @@ html {
    line-height: 3.2rem;
    min-width: 50rem;
    max-width: 50rem
-}
-
-.refonte .block-page.list-articles.visiteurs {
-   justify-content: center;
-   display: inline-flex;
-   flex-direction: column
 }
 
 .refonte .block-page.list-articles.exposants {
