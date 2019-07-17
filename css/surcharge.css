@@ -444,6 +444,10 @@ html{
     background-color:#BA9347;
     position:relative
 }
+.refonte #zone2 .linkid755724 a:hover{
+    -webkit-transform:scale(1.05);
+    transform:scale(1.05)
+}
 .refonte #zone2 .linkid755724 a::after{
     content:url(/theme/djazagro_git_desktop/img/arrow-white.svg);
     position:absolute;
