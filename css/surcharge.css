@@ -423,12 +423,41 @@ html{
     border-radius:50%;
     background:#51ae35
 }
+.refonte #zone2 .block.block-small.quicklinks{
+    margin:0 !important
+}
+.refonte #zone2 .linkid755724{
+    display:flex;
+    justify-content:center;
+    background-image:url(/theme/djazagro_git_desktop/img/paper_fibers.png)
+}
+.refonte #zone2 .linkid755724 a{
+    margin-bottom:10rem;
+    display:inline-block;
+    font-size:1.5rem;
+    line-height:2.1rem;
+    font-family:"lato-bold", sans-serif;
+    color:white;
+    padding:1.7rem 5.3rem 1.7rem 1.7rem !important;
+    transition:all .2s ease;
+    border:3px solid #BA9347;
+    background-color:#BA9347;
+    position:relative
+}
+.refonte #zone2 .linkid755724 a::after{
+    content:url(/theme/djazagro_git_desktop/img/arrow-white.svg);
+    position:absolute;
+    right:2rem
+}
 .refonte .block-page.list-articles.visiteurs,.refonte .block-page.list-articles.exposants{
     width:50%;
     min-height:48rem;
     justify-content:center;
     display:inline-flex;
     flex-direction:column
+}
+.refonte .block-page.list-articles.visiteurs .cxp-swiper .swiper-wrapper .slider-item .la-item-content .la-item-title,.refonte .block-page.list-articles.exposants .cxp-swiper .swiper-wrapper .slider-item .la-item-content .la-item-title{
+    color:#676767 !important
 }
 .refonte .block-page.list-articles.visiteurs .cxp-swiper .swiper-wrapper .slider-item img,.refonte .block-page.list-articles.exposants .cxp-swiper .swiper-wrapper .slider-item img{
     display:none
