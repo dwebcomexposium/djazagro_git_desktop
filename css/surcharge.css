@@ -747,12 +747,28 @@ ul li{
     left:45%
 }
 .front .global-testimonials{
-    display:flex;
+    display:block;
     position:relative;
-    padding-bottom:14rem;
+    padding-bottom:12rem;
     background-image:url(/theme/djazagro_git_desktop/img/paper_fibers.png);
     background-repeat:repeat;
     background-size:contain
+}
+.front .global-testimonials .quicklinks ul li{
+    display:flex;
+    justify-content:center
+}
+.front .global-testimonials .quicklinks ul li a.btn-primary{
+    padding:1.7rem 5.3rem 1.7rem 1.7rem !important
+}
+.front .global-testimonials .quicklinks ul li a.btn-primary::after{
+    content:url(/theme/djazagro_git_desktop/img/arrow-white.svg);
+    position:absolute;
+    right:2rem;
+    bottom:1.5rem
+}
+.front .global-testimonials article{
+    min-height:28rem !important
 }
 .front .temoignages-visiteurs,.front .temoignages-exposants{
     max-width:50%;
@@ -1144,3 +1160,4 @@ ul li{
         padding-left:4rem
     }
 }
+/*# sourceMappingURL=main.css.map*/
