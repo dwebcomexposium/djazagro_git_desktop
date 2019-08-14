@@ -774,6 +774,9 @@ ul li{
     transform:scale(1.05);
     background-color:#ba9347
 }
+.front .global-testimonials .quicklinks ul li a.btn-primary:focus{
+    background-color:#ba9347 !important
+}
 .front .global-testimonials article{
     min-height:28rem !important
 }
