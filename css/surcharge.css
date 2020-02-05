@@ -1170,4 +1170,8 @@ ul li{
         padding-left:4rem
     }
 }
+
+#cxpmClientAccountWidget .widget-my-selection .widget-icon {
+   margin-right: 6rem;
+}
 /*# sourceMappingURL=main.css.map*/
