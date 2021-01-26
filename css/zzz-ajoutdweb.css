@@ -143,3 +143,9 @@ background-image: url(/theme/djazagro_git_desktop/img/icons/icon-usercompte.svg)
 .newsletter-form .nf-main-content{
 padding: 40px 40px 70px 40px !important; 
 }
+
+/* Add margin to baseline */
+
+.front .date-place {
+  margin-right: 5px;	
+}
