@@ -154,3 +154,7 @@ padding: 40px 40px 70px 40px !important;
 .catalogue.main-navigation{
   width: 1448px;
 }
+
+#catalog-v2 .bgTint {
+    background-color: #6d2361!important;
+}
