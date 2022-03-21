@@ -149,3 +149,8 @@ padding: 40px 40px 70px 40px !important;
 .front .date-place {
   margin-right: 5px;	
 }
+
+/******** New Catalogue ***********/
+.catalogue.main-navigation{
+  width: 1448px;
+}
