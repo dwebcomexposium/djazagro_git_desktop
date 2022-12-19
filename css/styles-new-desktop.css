@@ -365,6 +365,33 @@ text-transform:inherit
     background:url(theme/djazagro_git_desktop/images/djazagro-fr.svg) left top no-repeat;
     background-size:contain;
     border:0 none;
+
+}
+
+
+html:lang(en) .logo-title{
+    background:url(theme/djazagro_git_desktop/images/djazagro-en.svg) left top no-repeat;
+}
+
+
+
+
+.logo-title{
+    display:block;
+    position:relative;
+    width:250px;
+    height:250px;
+    margin:0;
+    padding:0;
+    font-family:"Visby CF", sans-serif;
+    font-weight:500;
+    font-style:oblique;
+    font-size:0.6rem;
+    color:#8c8b8b;
+    line-height:1;
+    background:url(theme/djazagro_git_desktop/images/djazagro-fr.svg) left top no-repeat;
+    background-size:contain;
+    border:0 none;
 /*	
  -webkit-transition: all .3s;
   -moz-transition: all .3s;
