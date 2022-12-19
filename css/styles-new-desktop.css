@@ -6597,3 +6597,21 @@ li:hover > .mn-menu-submenu { margin-top: 0 !important; opacity: 1; visibility: 
 
 
  /*.site-banner.is-stuck .inside .mn-menu-line .mn-item-lvl-1:first-child {display: block!important; }*/
+ 
+ .la-item-title a {
+    color: #212E5A;
+    text-decoration: none;
+	text-transform: none;
+}
+
+.la-item-title a:focus, .la-item-title a:hover {
+    text-decoration: none;
+	color: #F07A70;
+}
+
+.la-item {
+    position: relative;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px dashed #e3e9ea;
+}
