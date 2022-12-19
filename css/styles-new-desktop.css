@@ -130,7 +130,7 @@ html{
     color:white
 }
 .front .btn.btn-bg-gold::after{
-    content:url(theme/djazagro_git_desktop/img/arrow-white.svg);
+    content:url(img/arrow-white.svg);
     position:absolute;
     right:2rem
 }
@@ -141,7 +141,7 @@ html{
 
 
 .front .btn.btn-bg-white::after{
-    content:url(theme/djazagro_git_desktop/images/ico-arrow-blue.svg);
+    content:url(images/ico-arrow-blue.svg);
     position:absolute;
     right:2rem
 }
@@ -154,7 +154,7 @@ html{
 
 }
 /*.front .btn.btn-bg-white.btn-txt-purple::after{
-    content:url(theme/djazagro_git_desktop/img/arrow-purple.svg);
+    content:url(img/arrow-purple.svg);
     position:absolute;
     right:2rem
 }*/
@@ -163,7 +163,7 @@ html{
     position:relative
 }
 /*.front .btn.btn-bg-white.btn-txt-green::after{
-    content:url(theme/djazagro_git_desktop/img/arrow-green.svg);
+    content:url(img/arrow-green.svg);
     position:absolute;
     right:2rem
 }*/
@@ -179,7 +179,7 @@ html{
     position:relative
 }
 .front .btn.btn-border.btn-txt-gold::after{
-    content:url(theme/djazagro_git_desktop/img/arrow-gold.svg);
+    content:url(img/arrow-gold.svg);
     position:absolute;
     right:2rem
 }
@@ -256,7 +256,7 @@ ul li{
 .front .footer-contact .prefooter-wrapper{
     display:flex;
     justify-content:space-between;
-    background-image:url("theme/djazagro_git_desktop/img/paper_fibers.png");
+    background-image:url("img/paper_fibers.png");
     background-repeat:repeat
 }
 @media screen and (max-width: 480px){
@@ -275,13 +275,13 @@ ul li{
     padding:5rem 0
 }
 .front .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(1) h3::before{
-    content:url("theme/djazagro_git_desktop/img/picto-question.svg")
+    content:url("img/picto-question.svg")
 }
 .front .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(2) h3::before{
-    content:url("theme/djazagro_git_desktop/img/picto-info.svg")
+    content:url("img/picto-info.svg")
 }
 .front .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) h3::before{
-    content:url("theme/djazagro_git_desktop/img/picto-reseaux.svg")
+    content:url("img/picto-reseaux.svg")
 }
 .front .footer-contact .prefooter-wrapper .prefooter-bloc h3{
     display:flex;
@@ -362,7 +362,7 @@ text-transform:inherit
     font-size:0.6rem;
     color:#8c8b8b;
     line-height:1;
-    background:url(theme/djazagro_git_desktop/images/djazagro-fr.svg) left top no-repeat;
+    background:url(images/djazagro-fr.svg) left top no-repeat;
     background-size:contain;
     border:0 none;
 
@@ -370,7 +370,7 @@ text-transform:inherit
 
 
 html:lang(en) .logo-title{
-    background:url(theme/djazagro_git_desktop/images/djazagro-en.svg) left top no-repeat;
+    background:url(images/djazagro-en.svg) left top no-repeat;
 }
 
 
@@ -389,7 +389,7 @@ html:lang(en) .logo-title{
     font-size:0.6rem;
     color:#8c8b8b;
     line-height:1;
-    background:url(theme/djazagro_git_desktop/images/djazagro-fr.svg) left top no-repeat;
+    background:url(images/djazagro-fr.svg) left top no-repeat;
     background-size:contain;
     border:0 none;
 /*	
@@ -517,7 +517,7 @@ color:#D7B571;
     margin:0;
     padding:8.5rem 0 3rem !important;
     position:relative;
-    background-image:url("theme/djazagro_git_desktop/img/paper_fibers.png");
+    background-image:url("img/paper_fibers.png");
     background-repeat:repeat;
     background-size:contain;
     margin-top:0 !important
@@ -654,7 +654,7 @@ color:#D7B571;
 }
 
 .front .landing{
-/*    background-image:url("theme/djazagro_git_desktop/img/background-landing.jpg");*/
+/*    background-image:url("img/background-landing.jpg");*/
     background-repeat:no-repeat;
     background-size:cover;
     padding:7.5rem 0;
@@ -667,7 +667,7 @@ color:#D7B571;
     margin:0 auto
 }
 .front .landing .landing-content{
-/*    background-image:url("theme/djazagro_git_desktop/img/paper_fibers.png");*/
+/*    background-image:url("img/paper_fibers.png");*/
     background-repeat:repeat;
     background-size:contain;
     z-index:5;
@@ -768,7 +768,7 @@ position:relative;
     display:block;
     position:relative;
     padding-bottom:12rem;
-    background-image:url(theme/djazagro_git_desktop/img/paper_fibers.png);
+    background-image:url(img/paper_fibers.png);
     background-repeat:repeat;
     background-size:contain
 }
@@ -782,7 +782,7 @@ position:relative;
     transition:all 0.2s ease 0s
 }
 .front .global-testimonials .quicklinks ul li a.btn-primary::after{
-    content:url(theme/djazagro_git_desktop/img/arrow-white.svg);
+    content:url(img/arrow-white.svg);
     position:absolute;
     right:2rem;
     bottom:1.5rem
@@ -852,7 +852,7 @@ position:relative;
 .front .footer-contact .prefooter-wrapper{
     display:flex;
     justify-content:space-between;
-    background-image:url("theme/djazagro_git_desktop/img/paper_fibers.png");
+    background-image:url("img/paper_fibers.png");
     background-repeat:repeat
 }
 @media screen and (max-width: 480px){
@@ -871,13 +871,13 @@ position:relative;
     padding:5rem 0
 }
 .front .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(1) h3::before{
-    content:url("theme/djazagro_git_desktop/img/picto-question.svg")
+    content:url("img/picto-question.svg")
 }
 .front .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(2) h3::before{
-    content:url("theme/djazagro_git_desktop/img/picto-info.svg")
+    content:url("img/picto-info.svg")
 }
 .front .footer-contact .prefooter-wrapper .prefooter-bloc:nth-child(3) h3::before{
-    content:url("theme/djazagro_git_desktop/img/picto-reseaux.svg")
+    content:url("img/picto-reseaux.svg")
 }
 .front .footer-contact .prefooter-wrapper .prefooter-bloc h3{
     display:flex;
@@ -963,15 +963,15 @@ font-family:"Visby CF",sans-serif; font-weight: bold;    border-bottom:inherit !
     background-position:center
 }
 .front .what-profil .container-profil:nth-child(1){
-    background-image:url("theme/djazagro_git_desktop/images/img-exibit.jpg")
+    background-image:url("images/img-exibit.jpg")
 }
 .front .what-profil .container-profil:nth-child(2){
-    background-image:url("theme/djazagro_git_desktop/images/img-visit.jpg")
+    background-image:url("images/img-visit.jpg")
 }
 .front .key-number{
     padding:6rem 0 6rem;
     margin:0 auto;
-/*    background-image:url("theme/djazagro_git_desktop/img/paper_fibers.png");*/
+/*    background-image:url("img/paper_fibers.png");*/
     background-repeat:repeat
 }
 .front .key-number .item{
@@ -1004,16 +1004,16 @@ font-family:"Visby CF",sans-serif; font-weight: bold;    border-bottom:inherit !
     z-index:-5*/
 }
 .front .key-number .item .item-pro .number::before{
-    content:url("theme/djazagro_git_desktop/images/icon-pro.svg")
+    content:url("images/icon-pro.svg")
 }
 .front .key-number .item .item-entreprise .number::before{
-    content:url("theme/djazagro_git_desktop/images/icon-stand.svg")
+    content:url("images/icon-stand.svg")
 }
 .front .key-number .item .item-visiteur .number::before{
-    content:url("theme/djazagro_git_desktop/images/icon-check.svg")
+    content:url("images/icon-check.svg")
 }
 .front .key-number .item .item-continent .number::before{
-    content:url("theme/djazagro_git_desktop/images/icon-sector.svg")
+    content:url("images/icon-sector.svg")
 }
 .front .key-number .item .icon-item{
     text-align:center;
@@ -1047,7 +1047,7 @@ font-family:"Visby CF",sans-serif; font-weight: bold;    margin-top:2rem
     display:flex
 }
 .front .first-market .first-market-content{
-    background-image:url("theme/djazagro_git_desktop/img/img-first-nb.jpg");
+    background-image:url("img/img-first-nb.jpg");
     background-size:cover;
     padding:11.8rem 0;
     flex:1;
@@ -1094,7 +1094,7 @@ font-family:"Visby CF",sans-serif; font-weight: bold;    margin-top:2rem
     }
 }
 .front .first-market .first-market-img{
-    background-image:url("theme/djazagro_git_desktop/img/img-first-color.jpg");
+    background-image:url("img/img-first-color.jpg");
     background-size:cover;
     background-position:right;
     flex:1
@@ -1102,7 +1102,7 @@ font-family:"Visby CF",sans-serif; font-weight: bold;    margin-top:2rem
 .front .relive-show{
     min-height:72.3rem;
     width:100%;
-/*    background-image:url("theme/djazagro_git_desktop/img/background-landing.jpg");*/
+/*    background-image:url("img/background-landing.jpg");*/
     background-repeat:no-repeat;
     background-size:cover;
     display:flex;
@@ -1120,7 +1120,7 @@ font-family:"Visby CF",sans-serif; font-weight: bold;    margin-top:2rem
 .front .relive-show .container-video{
     width:79.7rem;
     height:41.5rem;
-    background-image:url("theme/djazagro_git_desktop/img/img-video.jpg");
+    background-image:url("img/img-video.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     box-shadow:0 43px 74px 30px rgba(0,0,0,0.06);
@@ -1131,10 +1131,10 @@ font-family:"Visby CF",sans-serif; font-weight: bold;    margin-top:2rem
 .front .relive-show .container-video:hover::after{
     -webkit-animation:2s pulse ease infinite;
     animation:2s pulse ease infinite;
-    content:url("theme/djazagro_git_desktop/img/icon-play-gold.svg")
+    content:url("img/icon-play-gold.svg")
 }
 .front .relive-show .container-video::after{
-    content:url("theme/djazagro_git_desktop/img/icon-play.svg")
+    content:url("img/icon-play.svg")
 }
 .front .edito.seo{
     background:inherit !important
@@ -1183,7 +1183,7 @@ font-family:"Visby CF",sans-serif; font-weight: bold;    margin-top:2rem
 
 @font-face {
 	font-family: "64db4df9128eb9ea831991cf5f702f48";
-	src: url("theme/djazagro_git_desktop/fonts/din/21ea76a6-4adf-b4a1-0c34-17f5994ff82c.woff") format("woff")
+	src: url("fonts/din/21ea76a6-4adf-b4a1-0c34-17f5994ff82c.woff") format("woff")
 }
 
 body {
@@ -1331,158 +1331,158 @@ body {
 
 .icon-search::before,
 .icon-catal-search::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-search-dark.svg")
+	background-image: url("img/icons/icon-search-dark.svg")
 }
 
 .icon-email::before,
 .icon-catal-email::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-email.svg")
+	background-image: url("img/icons/icon-email.svg")
 }
 
 .icon-newsletter::before,
 .icon-catal-newsletter::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-newsletter-dark.svg")
+	background-image: url("img/icons/icon-newsletter-dark.svg")
 }
 
 .icon-print::before,
 .icon-catal-print::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-print.svg")
+	background-image: url("img/icons/icon-print.svg")
 }
 
 .icon-download::before,
 .icon-catal-download::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-download.svg")
+	background-image: url("img/icons/icon-download.svg")
 }
 
 .icon-facebook::before,
 .icon-catal-facebook::before {
-	background-image: url("theme/djazagro_git_desktop/images/ico-facebook.svg")
+	background-image: url("images/ico-facebook.svg")
 }
 
 .site-banner .icon-facebook::before,
 .site-banner .icon-catal-facebook::before {
-	background-image: url("theme/djazagro_git_desktop/images/ico-facebook.svg"); width: 40%; height: auto;}
+	background-image: url("images/ico-facebook.svg"); width: 40%; height: auto;}
 
 .icon-instagram::before,
 .icon-catal-instagram::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/instagram-header.png")
+	background-image: url("img/icons/instagram-header.png")
 }
 
 .site-banner .icon-instagram::before,
 .site-banner .icon-catal-instagram::before {
-		background-image: url("theme/djazagro_git_desktop/images/ico-instagram.svg"); width: 60%; height: auto; }
+		background-image: url("images/ico-instagram.svg"); width: 60%; height: auto; }
 }
 
 .icon-linkedin::before,
 .icon-catal-linkedin::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/linkedin-header.png")
+	background-image: url("img/icons/linkedin-header.png")
 }
 
 .site-banner .icon-linkedin::before,
 .site-banner .icon-catal-linkedin::before {
-		background-image: url("theme/djazagro_git_desktop/images/ico-linkedin.svg"); width: 59%; height: auto;  }
+		background-image: url("images/ico-linkedin.svg"); width: 59%; height: auto;  }
 
 }
 
 .icon-youtube::before,
 .icon-catal-youtube::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/youtube-header.png")
+	background-image: url("img/icons/youtube-header.png")
 }
 
 .site-banner .icon-youtube::before,
 .site-banner .icon-catal-youtube::before {
-		background-image: url("theme/djazagro_git_desktop/images/ico-youtube.svg"); width: 65%; height: auto; padding-top: 2px;
+		background-image: url("images/ico-youtube.svg"); width: 65%; height: auto; padding-top: 2px;
 }
 }
 
 .icon-google-plus::before,
 .icon-catal-google-plus::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/google-plus-header.png")
+	background-image: url("img/icons/google-plus-header.png")
 }
 
 .site-banner .icon-google-plus::before,
 .site-banner .icon-catal-google-plus::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/google-plus-header.png")
+	background-image: url("img/icons/google-plus-header.png")
 }
 
 .icon-twitter::before,
 .icon-catal-twitter::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/twitter-header.png")
+	background-image: url("img/icons/twitter-header.png")
 }
 
 .site-banner .icon-twitter::before,
 .site-banner .icon-catal-twitter::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/twitter-header.png")
+	background-image: url("img/icons/twitter-header.png")
 }
 
 .icon-flickr::before,
 .icon-catal-flickr::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/flickr-header.png")
+	background-image: url("img/icons/flickr-header.png")
 }
 
 .site-banner .icon-flickr::before,
 .site-banner .icon-catal-flickr::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/flickr-header.png")
+	background-image: url("img/icons/flickr-header.png")
 }
 
 .icon-visiteur::before,
 .icon-catal-visiteur::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-account.svg")
+	background-image: url("img/icons/icon-account.svg")
 }
 
 .icon-resa::before,
 .icon-catal-resa::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-resa.svg")
+	background-image: url("img/icons/icon-resa.svg")
 }
 
 .icon-estimation::before,
 .icon-catal-estimation::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-estim.svg")
+	background-image: url("img/icons/icon-estim.svg")
 }
 
 .icon-billet::before,
 .icon-catal-billet::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-ticket.svg")
+	background-image: url("img/icons/icon-ticket.svg")
 }
 
 .icon-dates::before,
 .icon-catal-dates::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-dates.svg")
+	background-image: url("img/icons/icon-dates.svg")
 }
 
 .icon-tarifs::before,
 .icon-catal-tarifs::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-ticket.svg")
+	background-image: url("img/icons/icon-ticket.svg")
 }
 
 .icon-acces::before,
 .icon-catal-acces::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-access.svg")
+	background-image: url("img/icons/icon-access.svg")
 }
 
 .icon-plan::before,
 .icon-catal-plan::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-map.svg")
+	background-image: url("img/icons/icon-map.svg")
 }
 
 .icon-catalogue::before,
 .icon-catal-catalogue::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-catalogue.svg")
+	background-image: url("img/icons/icon-catalogue.svg")
 }
 
 .icon-catalogue2::before,
 .icon-catal-catalogue2::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-catalogue-2.svg")
+	background-image: url("img/icons/icon-catalogue-2.svg")
 }
 
 .icon-presse::before,
 .icon-catal-presse::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-card.svg")
+	background-image: url("img/icons/icon-card.svg")
 }
 
 .icon-espace::before,
 .icon-catal-espace::before {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-account2.svg")
+	background-image: url("img/icons/icon-account2.svg")
 }
 
 .icon-long-arrow-right::before,
@@ -1493,7 +1493,7 @@ body {
 	display: block;
 	width: 25px;
 	height: 9px;
-	background-image: url("theme/djazagro_git_desktop/img/icons/arrow-primary.png");
+	background-image: url("img/icons/arrow-primary.png");
 	-webkit-transform: rotate(0deg);
 	-ms-transform: rotate(0deg);
 	transform: rotate(0deg)
@@ -1507,7 +1507,7 @@ body {
 	display: block;
 	width: 25px;
 	height: 9px;
-	background-image: url("theme/djazagro_git_desktop/img/icons/arrow-primary.png");
+	background-image: url("img/icons/arrow-primary.png");
 	-webkit-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
 	transform: rotate(180deg)
@@ -1519,7 +1519,7 @@ body {
 	display: block;
 	width: 25px;
 	height: 9px;
-	background-image: url("theme/djazagro_git_desktop/img/icons/arrow-thin-white.png");
+	background-image: url("img/icons/arrow-thin-white.png");
 	-webkit-transform: rotate(0deg);
 	-ms-transform: rotate(0deg);
 	transform: rotate(0deg)
@@ -1531,7 +1531,7 @@ body {
 	display: block;
 	width: 25px;
 	height: 9px;
-	background-image: url("theme/djazagro_git_desktop/img/icons/arrow-thin-white.png");
+	background-image: url("img/icons/arrow-thin-white.png");
 	-webkit-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
 	transform: rotate(180deg)
@@ -1543,7 +1543,7 @@ body {
 	display: block;
 	width: 25px;
 	height: 21px;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-heart-plus.svg")
+	background-image: url("img/icons/icon-heart-plus.svg")
 }
 
 .icon-star-delete::before,
@@ -1552,7 +1552,7 @@ body {
 	display: block;
 	width: 25px;
 	height: 21px;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-heart-minus.svg")
+	background-image: url("img/icons/icon-heart-minus.svg")
 }
 
 a {
@@ -2279,7 +2279,7 @@ ul#noty_topRight_layout_container .noty_text {
 .site-banner .inside .mn-menu-line .mn-link.mn-link:hover,
 .site-banner .inside .mn-menu-line .mn-link.is-active {
 	color: #F07A70;
-	background: transparent url("theme/djazagro_git_desktop/img/catalogue/hover-main.png") bottom center no-repeat
+	background: transparent url("img/catalogue/hover-main.png") bottom center no-repeat
 }
 
 .site-banner .inside .mn-menu-line .mn-link.is-open {
@@ -2289,7 +2289,7 @@ ul#noty_topRight_layout_container .noty_text {
 
 .site-banner .inside .mn-menu-line .mn-menu-item.is-open .mn-link {
 	color: #F07A70;
-	background: transparent url("theme/djazagro_git_desktop/img/catalogue/hover-main.png") bottom center no-repeat;
+	background: transparent url("img/catalogue/hover-main.png") bottom center no-repeat;
 	-webkit-transition: none;
 	transition: none
 }
@@ -2456,14 +2456,14 @@ ul#noty_topRight_layout_container .noty_text {
 .site-banner .inside .quicklinks .ql-list .ql-item .icon-badge {
 	width: 29px;
 	height: 33px;
-	background: url("theme/djazagro_git_desktop/img/icons/picto-billets.svg") left center no-repeat;
+	background: url("img/icons/picto-billets.svg") left center no-repeat;
 	background-size: contain
 }
 
 .site-banner .inside .quicklinks .ql-list .ql-item .icon-estimation {
 	width: 29px;
 	height: 37px;
-	background: url("theme/djazagro_git_desktop/img/icons/picto-estimer.svg") left center no-repeat;
+	background: url("img/icons/picto-estimer.svg") left center no-repeat;
 	background-size: contain
 }
 
@@ -2481,7 +2481,7 @@ ul#noty_topRight_layout_container .noty_text {
 	width: 35px;
 	height: 35px;
 	margin-top: -5px;
-	background: url("theme/djazagro_git_desktop/img/icons/picto-reserv.svg") left center no-repeat;
+	background: url("img/icons/picto-reserv.svg") left center no-repeat;
 	background-size: contain
 }
 
@@ -2563,7 +2563,7 @@ ul#noty_topRight_layout_container .noty_text {
 	height: 18px;
 	line-height: 1;
 	vertical-align: middle;
-	background: url("theme/djazagro_git_desktop/img/icons/icon-newsletter-dark.svg") center center no-repeat;
+	background: url("img/icons/icon-newsletter-dark.svg") center center no-repeat;
 	background-size: contain
 }
 
@@ -2654,7 +2654,7 @@ ul#noty_topRight_layout_container .noty_text {
 	display: block;
 	width: 165px;
 	height: 27px;
-	background: url("theme/djazagro_git_desktop/img/logo-comexposium.svg") center center no-repeat;
+	background: url("img/logo-comexposium.svg") center center no-repeat;
 	background-size: contain
 }
 
@@ -3161,7 +3161,7 @@ body.search .search-result .sr-item-txt h6 {
 	transform: rotate(-45deg);
 	margin: 0;
 	display: block;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-email.svg")
+	background-image: url("img/icons/icon-email.svg")
 }
 
 .social-sharing .sr-link-mail i:before {
@@ -3181,7 +3181,7 @@ body.search .search-result .sr-item-txt h6 {
 	transform: rotate(-45deg);
 	margin: 0;
 	display: block;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-facebook.svg")
+	background-image: url("img/icons/icon-facebook.svg")
 }
 
 .social-sharing .sr-link-facebook i:before {
@@ -3201,7 +3201,7 @@ body.search .search-result .sr-item-txt h6 {
 	transform: rotate(-45deg);
 	margin: 0;
 	display: block;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-twitter.svg")
+	background-image: url("img/icons/icon-twitter.svg")
 }
 
 .social-sharing .sr-link-twitter i:before {
@@ -3221,7 +3221,7 @@ body.search .search-result .sr-item-txt h6 {
 	transform: rotate(-45deg);
 	margin: 0;
 	display: block;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-linkedin.svg")
+	background-image: url("img/icons/icon-linkedin.svg")
 }
 
 .social-sharing .sr-link-linkedin i:before {
@@ -3241,7 +3241,7 @@ body.search .search-result .sr-item-txt h6 {
 	transform: rotate(-45deg);
 	margin: 0;
 	display: block;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-google-plus.svg")
+	background-image: url("img/icons/icon-google-plus.svg")
 }
 
 .social-sharing .sr-link-gplus i:before {
@@ -3650,7 +3650,7 @@ body.search .search-result .sr-item-txt h6 {
 }
 
 .mod-catal .catal-ex-item-buttons .btn-primary .icon-catal {
-	background: url("theme/djazagro_git_desktop/img/icons/icon-heart-plus.svg") center center no-repeat;
+	background: url("img/icons/icon-heart-plus.svg") center center no-repeat;
 	margin-right: 2em
 }
 
@@ -3661,7 +3661,7 @@ body.search .search-result .sr-item-txt h6 {
 
 .mod-catal .catal-ex-item-buttons .btn-primary:hover .icon-catal {
 	color: #D7B571;
-	background: url("theme/djazagro_git_desktop/img/icons/icon-heart-plus-hover.svg") center center no-repeat;
+	background: url("img/icons/icon-heart-plus-hover.svg") center center no-repeat;
 	margin-right: 2em
 }
 
@@ -4833,7 +4833,7 @@ body.catalogue #zone3 {
 
 .list-articles .la-list .la-item.topic_process_agroalimentaire .la-item-img-wrapper:after {
 	width: 15%;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-process_agroalimentaire.svg")
+	background-image: url("img/icons/icon-process_agroalimentaire.svg")
 }
 
 .list-articles .la-list .la-item.topic_boulangerie .la-item-title:before {
@@ -4851,7 +4851,7 @@ body.catalogue #zone3 {
 
 .list-articles .la-list .la-item.topic_boulangerie .la-item-img-wrapper:after {
 	height: 15%;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-boulangerie.svg")
+	background-image: url("img/icons/icon-boulangerie.svg")
 }
 
 .list-articles .la-list .la-item.topic_produits_alimentaires_ .la-item-title:before {
@@ -4870,7 +4870,7 @@ body.catalogue #zone3 {
 .list-articles .la-list .la-item.topic_produits_alimentaires_ .la-item-img-wrapper:after {
 	height: 30%;
 	width: 10%;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-produits_alimentaires_.svg")
+	background-image: url("img/icons/icon-produits_alimentaires_.svg")
 }
 
 .list-articles .la-list .la-item.topic_ingredients .la-item-title:before {
@@ -4889,7 +4889,7 @@ body.catalogue #zone3 {
 .list-articles .la-list .la-item.topic_ingredients .la-item-img-wrapper:after {
 	width: 15%;
 	height: 25%;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-ingredients.svg")
+	background-image: url("img/icons/icon-ingredients.svg")
 }
 
 .list-articles .la-list .la-item.topic_restauration .la-item-title:before {
@@ -4906,7 +4906,7 @@ body.catalogue #zone3 {
 }
 
 .list-articles .la-list .la-item.topic_restauration .la-item-img-wrapper:after {
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-restauration.svg")
+	background-image: url("img/icons/icon-restauration.svg")
 }
 
 .list-articles .la-list .la-item .txtjustify,
@@ -4929,7 +4929,7 @@ body.catalogue #zone3 {
 }
 
 .error404 .global-wrapper {
-	background: url("theme/djazagro_git_desktop/img/_temp/404.jpg") center no-repeat;
+	background: url("img/_temp/404.jpg") center no-repeat;
 	min-height: 650px;
 	background-size: cover
 }
@@ -5088,7 +5088,7 @@ body.catalogue #zone3 {
 }
 
 #zone3 .quicklinks .ql-list .ql-item a {
-	background: #D7B571 url("theme/djazagro_git_desktop/img/catalogue/btn-rightside-menu.png") 95% center no-repeat
+	background: #D7B571 url("img/catalogue/btn-rightside-menu.png") 95% center no-repeat
 }
 
 #zone3 .quicklinks .ql-list .ql-item a:focus,
@@ -5097,7 +5097,7 @@ body.catalogue #zone3 {
 }
 
 #zone3 .quicklinks .ql-list .ql-item.linkid83261 a {
-	background-image: url("theme/djazagro_git_desktop/img/catalogue/picto-stand.png")
+	background-image: url("img/catalogue/picto-stand.png")
 }
 
 #zone3 .quicklinks .btn-primary {
@@ -5115,8 +5115,8 @@ body.catalogue #zone3 {
 	font-family: 'slick';
 	font-weight: normal;
 	font-style: normal;
-	src: url("theme/djazagro_git_desktop/js/vendor/slick-carousel/slick/fonts/slick.eot");
-	src: url("theme/djazagro_git_desktop/js/vendor/slick-carousel/slick/fonts/slick.eot?#iefix") format("embedded-opentype"), url("theme/djazagro_git_desktop/js/vendor/slick-carousel/slick/fonts/slick.woff") format("woff"), url("theme/djazagro_git_desktop/js/vendor/slick-carousel/slick/fonts/slick.ttf") format("truetype"), url("theme/djazagro_git_desktop/js/vendor/slick-carousel/slick/fonts/slick.svg#slick") format("svg")
+	src: url("js/vendor/slick-carousel/slick/fonts/slick.eot");
+	src: url("js/vendor/slick-carousel/slick/fonts/slick.eot?#iefix") format("embedded-opentype"), url("js/vendor/slick-carousel/slick/fonts/slick.woff") format("woff"), url("js/vendor/slick-carousel/slick/fonts/slick.ttf") format("truetype"), url("js/vendor/slick-carousel/slick/fonts/slick.svg#slick") format("svg")
 }
 
 .slick-prev,
@@ -5472,7 +5472,7 @@ body.catalogue #zone3 {
 	height: 30px;
 	width: 30px;
 	padding: 0;
-	background: url("theme/djazagro_git_desktop/img/visual/cookie-close.png") center center no-repeat;
+	background: url("img/visual/cookie-close.png") center center no-repeat;
 	background-size: contain
 }
 
@@ -5491,7 +5491,7 @@ body.catalogue #zone3 {
 
 .page-header .inside {
 	text-align: center;
-/*	background: url("theme/djazagro_git_desktop/img/banner/banner-default.jpg") center top no-repeat;*/
+/*	background: url("img/banner/banner-default.jpg") center top no-repeat;*/
 	background-size: cover
 }
 
@@ -5673,7 +5673,7 @@ body.catalogue #zone3 {
 	height: 41px;
 	padding: 0;
 	text-indent: -9999px;
-	background: url("theme/djazagro_git_desktop/img/btn-diamond-white.png") no-repeat
+	background: url("img/btn-diamond-white.png") no-repeat
 }
 
 .front #zone1 .slider-pagin {
@@ -5815,7 +5815,7 @@ body.catalogue #zone3 {
 .front #zone2>.list-articles:first-child .gla-item.topic_boulangerie .gla-btn-read-more {
 	width: 80px;
 	height: 60px;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-boulangerie.svg")
+	background-image: url("img/icons/icon-boulangerie.svg")
 }
 
 .front #zone2>.list-articles:first-child .gla-item.topic_restauration .gla-item-content {
@@ -5829,7 +5829,7 @@ body.catalogue #zone3 {
 .front #zone2>.list-articles:first-child .gla-item.topic_restauration .gla-btn-read-more {
 	width: 64px;
 	height: 60px;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-restauration.svg")
+	background-image: url("img/icons/icon-restauration.svg")
 }
 
 .front #zone2>.list-articles:first-child .gla-item.topic_process_agroalimentaire .gla-item-content {
@@ -5843,7 +5843,7 @@ body.catalogue #zone3 {
 .front #zone2>.list-articles:first-child .gla-item.topic_process_agroalimentaire .gla-btn-read-more {
 	width: 73px;
 	height: 60px;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-process_agroalimentaire.svg")
+	background-image: url("img/icons/icon-process_agroalimentaire.svg")
 }
 
 .front #zone2>.list-articles:first-child .gla-item.topic_produits_alimentaires_ .gla-item-content {
@@ -5857,7 +5857,7 @@ body.catalogue #zone3 {
 .front #zone2>.list-articles:first-child .gla-item.topic_produits_alimentaires_ .gla-btn-read-more {
 	width: 23px;
 	height: 60px;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-produits_alimentaires_.svg")
+	background-image: url("img/icons/icon-produits_alimentaires_.svg")
 }
 
 .front #zone2>.list-articles:first-child .gla-item.topic_ingredients .gla-item-content {
@@ -5871,7 +5871,7 @@ body.catalogue #zone3 {
 .front #zone2>.list-articles:first-child .gla-item.topic_ingredients .gla-btn-read-more {
 	width: 50px;
 	height: 60px;
-	background-image: url("theme/djazagro_git_desktop/img/icons/icon-ingredients.svg")
+	background-image: url("img/icons/icon-ingredients.svg")
 }
 
 .front #zone2>.list-articles:first-child .gla-item-content {
@@ -6113,7 +6113,7 @@ body.catalogue #zone3 {
 }
 
 .block-video {
-	background: url(theme/djazagro_git_desktop/img/bg-video-block.jpg) center center no-repeat;
+	background: url(img/bg-video-block.jpg) center center no-repeat;
 	background-size: cover
 }
 
@@ -6178,7 +6178,7 @@ body.catalogue #zone3 {
 
 .block.edito.seo {
 	position: relative;
-	background: url(theme/djazagro_git_desktop/img/bg-wheat-field.jpg) center bottom no-repeat;
+	background: url(img/bg-wheat-field.jpg) center bottom no-repeat;
 	background-size: cover;
 	overflow: hidden
 }
@@ -6298,7 +6298,7 @@ body.catalogue #zone3 {
 	width: 41px;
 	height: 41px;
 	text-indent: -9999px;
-	background: url("theme/djazagro_git_desktop/img/btn-diamond-orange.png") center center no-repeat;
+	background: url("img/btn-diamond-orange.png") center center no-repeat;
 	background-size: contain;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -6586,7 +6586,7 @@ li:hover > .mn-menu-submenu { margin-top: 0 !important; opacity: 1; visibility: 
 .is-stuck .logo-title{
     width:250px;
     height:120px;
-    background:url(theme/djazagro_git_desktop/images/logo-sticky.svg) left top no-repeat;
+    background:url(images/logo-sticky.svg) left top no-repeat;
 
 }
 
@@ -6597,3 +6597,4 @@ li:hover > .mn-menu-submenu { margin-top: 0 !important; opacity: 1; visibility: 
 
 
  /*.site-banner.is-stuck .inside .mn-menu-line .mn-item-lvl-1:first-child {display: block!important; }*/
+
