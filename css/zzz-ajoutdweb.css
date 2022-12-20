@@ -159,6 +159,6 @@ padding: 40px 40px 70px 40px !important;
     background-color: #DEC388!important;
 }
 
-#catalog-v2 .textPrimary; #catalog-v2 .textAccent {
+#catalog-v2 .textPrimary, #catalog-v2 .textAccent {
     color: #212E5A!important; }
 
